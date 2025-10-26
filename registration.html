@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noelle </title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <section class="login-section">
+    <div class="login-section-cont">
+      <div class="login-section-img">
+        <img src="img/login-regis-img.jpg">
+        <div class="login-regis-name">
+          <img src="img/Line 1.jpg">
+          <span class="font-didot-74">Noelle</span>
+          <img src="img/Line 1.jpg">
+        </div>
+        <button type="button" class="login-btn font-lato-14 absol-but" onclick="window.location.href='index.html'">
+          Back
+        </button>
+      </div>
+      <div class="login-container">
+        <form class="login-form">
+          <fieldset>
+            <legend>Register</legend>
+            <label for="username" class="font-lato-16">Username</label>
+            <div class="input-box">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" id="username" name="username" placeholder="Type your Username" required>
+            </div>
+            <label for="password" class="font-lato-16">Password</label>
+            <div class="input-box">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" id="password" name="password" placeholder="Type your Password" required>
+              <i class="fa-regular fa-eye toggle-password"></i>
+            </div>
+            <label for="password" class="font-lato-16">Confirm Password</label>
+            <div class="input-box">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" id="password" name="password" placeholder="Conifirm your Password" required>
+              <i class="fa-regular fa-eye toggle-password"></i>
+            </div>
+            <button type="submit" class="login-btn font-lato-14">Sing Up</button>
+            <div class="have-account font-lato-16">
+              <span><strong>Have an Account?</strong></span>
+              <a href="login.html"> Login Here</a>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </section>
+  <button class="back-btn" onclick="window.location.href='login.html'"><i class="fa-solid fa-arrow-left"></i></button>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/aos-init.js"></script>
+  <script src="js/register.js"></script>
+  <script src="js/toggle-password.js"></script>
+
+</body>
+
+</html>

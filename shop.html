@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noelle </title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <header class="second-header">
+        <div class="second-shopping-bar">
+            <div class="promocode1  font-lato-14"><span><strong>15% sitewide!</strong></span><span>use promo code
+                    LOVE15</span></div>
+            <button><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+        <div class="mobile-header-bottom">
+            <div class="flex flex-between flex-middle" id="mobile-header-content">
+                <button id="mobile-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="mobile-nav-btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="mobile-search-form" id="mobile-search-form" style="display: none;">
+                <input type="text" placeholder="Search..." />
+                <button id="mobile-close-search"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+        <div class="mobile-menu-box ">
+            <button class="mobile-menu-close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="mobile-menu-nav">
+                <button class=" mobile-menu-login" type="button" onclick="window.location.href='login.html'">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span class="header-login-text">Log In</span>
+                </button>
+
+                <nav class="main-nav">
+                    <ul class="main-nav-list ">
+                        <li><a class="main-nav-link" href="shop.html">SHOP ALL</a></li>
+                        <li><a class="main-nav-link" href="new.html">NEW</a></li>
+                        <li><a class="main-nav-link" href="bestSeller.html">BEST SELLER</a></li>
+                        <li><a class="main-nav-link" href="face.html">FACE</a></li>
+                        <li><a class="main-nav-link" href="lips.html">LIPS</a></li>
+                        <li><a class="main-nav-link" href="eyes.html">EYE</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <header class="main-header static-header">
+        <div class="search-bar">
+            <button type="button" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div id="search-form">
+                <div class="search-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" placeholder="Search..." />
+                    <button type="button" id="close-search"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+            <div class="promocode">
+                <span class="font-lato-16"><strong>15% sitewide!</strong></span>
+                <span class="font-lato-16">use promo code LOVE15</span>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="nav-login">
+            <a href="index.html" class="name-logo font-playfair-24">Noelle</a>
+            <nav class="main-nav">
+                <ul class="main-nav-list font-lato-16">
+                    <li><a class="main-nav-link" href="shop.html">SHOP ALL</a></li>
+                    <li><a class="main-nav-link" href="new.html">NEW</a></li>
+                    <li><a class="main-nav-link" href="bestSeller.html">BEST SELLER</a></li>
+                    <li><a class="main-nav-link" href="face.html">FACE</a></li>
+                    <li><a class="main-nav-link" href="lips.html">LIPS</a></li>
+                    <li><a class="main-nav-link" href="eyes.html">EYE</a></li>
+                </ul>
+            </nav>
+            <div class="login-purchase">
+                <button type="button">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <a href="login.html"> Log In</a>
+                </button>
+                <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+        </div>
+    </header>
+    <section class="shop-all">
+        <aside class="aside-bar">
+            <div class="home-nav">
+                <a class="font-lato-14" href="index.html">Home</a>
+                <a class="font-lato-16"><i class="fa-solid fa-chevron-right"></i></a>
+                <a class="font-lato-14" href="shop.html">All Products</a>
+            </div>
+            <p class="font-lato-20">Browse by</p>
+            <nav class="aside-nav">
+                <ul class="aside-nav-list font-lato-16">
+                    <li><a class="aside-nav-link" href="shop.html">All Products</a></li>
+                    <li><a class="aside-nav-link" href="bestSeller.html">Best Sellers</a></li>
+                    <li><a class="aside-nav-link" href="eyes.html">Eyes</a></li>
+                    <li><a class="aside-nav-link" href="face.html">Face</a></li>
+                    <li><a class="aside-nav-link" href="lips.html">Lips</a></li>
+                    <li><a class="aside-nav-link" href="new.html">New</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="secondary-page">
+            <div class="home-nav home-nav-2">
+                <a class="font-lato-14" href="index.html">Home</a>
+                <a class="font-lato-16"><i class="fa-solid fa-chevron-right"></i></a>
+                <a class="font-lato-14" href="shop.html">All Products</a>
+            </div>
+            <img class="seccondary-img" src="img/shop-pic.jpg">
+            <h1 class="font-playfair-48" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-in-out">All
+                Products</h1>
+            <div class="filter">
+                <span class="font-lato-14 product-amount">21 product</span>
+                <div class="sort-button-cont">
+                    <button id="sortButton" class="font-lato-14">
+                        Sort <i id="sortIcon" class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <ul id="sortMenu" class="sort-menu hidden font-lato-14">
+                        <li><button data-sort="recommended" type="button">Recommended</button></li>
+                        <li><button data-sort="low-high" type="button">Price (Low to High)</button></li>
+                        <li><button data-sort="high-low" type="button">Price (High to Low)</button></li>
+                        <li><button data-sort="a-z" type="button">Name: A–Z</button></li>
+                        <li><button data-sort="z-a" type="button">Name: Z–A</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-card-container">
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/lipstick.jpg" alt="product" class="main-img">
+                        <img src="img/lipstick-drow.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <div class="badge">New</div>
+                    <p class="name font-lato-18">Luxe Velvet Lipstick</p>
+                    <p class="price font-lato-14">$25.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <span class="rating-number">5 (12)</span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/lip-gloss.jpg" alt="product" class="main-img">
+                        <img src="img/lip-gloss-drow.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <div class="badge">New</div>
+                    <p class="name font-lato-18">Glossy Rose</p>
+                    <p class="price font-lato-14">$40.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 (10)</span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/foundation.jpg" alt="product" class="main-img">
+                        <img src="img/foundation-drop.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18">Full Coverage Foundation</p>
+                    <p class="price font-lato-14">$15.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 (9)</span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/pencile.jpg" alt="product" class="main-img">
+                        <img src="img/pencile-drow.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18">Black Power Eye Pencil</p>
+                    <p class="price font-lato-14">$10.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <span class="rating-number">5 (12)</span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/eyeshadow.jpg" alt="product" class="main-img">
+                        <img src="img/eyeshadow-pices.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <div class="badge">New</div>
+                    <p class="name font-lato-18">Dazzle Pink Eyeshadow</p>
+                    <p class="price font-lato-14">$35.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.3 (12)</span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/multipack-eyesshadow.jpg" alt="product" class="main-img">
+                        <img src="img/multipack-pieces.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18">Multipack Eyeshadow</p>
+                    <p class="price font-lato-14">$12.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 (12)</span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/chocolate-kiss.jpg" alt="product" class="main-img">
+                        <img src="img/chocolate-lips.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <div class="badge">New</div>
+                    <p class="name font-lato-18">Chocolate Kiss</p>
+                    <p class="price font-lato-14">$25.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <span class="rating-number">5 (12)</span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/pencile2.jpg" alt="product" class="main-img">
+                        <img src="img/pencil2-line.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <div class="badge">New</div>
+                    <p class="name font-lato-18">Brown Power Eye Pencil</p>
+                    <p class="price font-lato-14">$25.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <span class="rating-number">5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/weeding-day-lipstick.jpg" alt="product" class="main-img">
+                        <img src="img/weeding-day-lipstick2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <div class="badge">New</div>
+                    <p class="name font-lato-18">Wedding Day Lip</p>
+                    <p class="price font-lato-14">$25.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <span class="rating-number">5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Duo Bronzer and Blush Palette.jpg" alt="product" class="main-img">
+                        <img src="img/Duo Bronzer and Blush Palette 2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18">Duo Bronzer and Blush Palette</p>
+                    <p class="price font-lato-14">$35.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <span class="rating-number">5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Off to Costa Rica (Medium-Tan).jpg" alt="product" class="main-img">
+                        <img src="img/Off to Costa Rica (Medium-Tan2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18">Off to Costa Rica (Medium-Tan)</p>
+                    <p class="price font-lato-14">$35.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <span class="rating-number">5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Bubble Balm Highlighter Icy Rose.jpg" alt="product" class="main-img">
+                        <img src="img/Bubble Balm Highlighter Icy Rose2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18">Bubble Balm Highlighter Icy Rose</p>
+                    <p class="price font-lato-14">$12.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.1 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Bright Highlighter Diamond Glow.jpg" alt="product" class="main-img">
+                        <img src="img/Bright Highlighter Diamond Glow2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18">Bright Highlighter Diamond Glow</p>
+                    <p class="price font-lato-14">$15.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Profusion Cosmetics 10 Shade Eyeshadow Palette.jpg" alt="product"
+                            class="main-img">
+                        <img src="img/Profusion Cosmetics 10 Shade Eyeshadow Palette2.jpg" alt="hover product"
+                            class="hover-img">
+                    </div>
+                    <p class="name font-lato-18"> 10 Shade Eyeshadow Palette</p>
+                    <p class="price font-lato-14">$48.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Full Coverage Beam Fluid Foundation.jpg" alt="product" class="main-img">
+                        <img src="img/Full Coverage Beam Fluid Foundation2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18"> Full Coverage Beam Fluid Foundation</p>
+                    <p class="price font-lato-14">$15.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Sheer Tinted Lip Balm.jpg" alt="product" class="main-img">
+                        <img src="img/Sheer Tinted Lip Balm2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18"> Sheer Tinted Lip Balm</p>
+                    <p class="price font-lato-14">$45.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Lip Gloss - Crystal Clear.jpg" alt="product" class="main-img">
+                        <img src="img/Lip Gloss - Crystal Clear2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18"> Lip Gloss - Crystal Clear</p>
+                    <p class="price font-lato-14">$32.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/All-Star Face Palette.jpg" alt="product" class="main-img">
+                        <img src="img/All-Star Face Palette2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18"> All-Star Face Palette</p>
+                    <p class="price font-lato-14">$56.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="img/Waterproof Liquid Eyeliner.jpg" alt="product" class="main-img">
+                        <img src="img/Waterproof Liquid Eyeliner2.jpg" alt="hover product" class="hover-img">
+                    </div>
+                    <p class="name font-lato-18"> Waterproof Liquid Eyeliner</p>
+                    <p class="price font-lato-14">$10.00</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa-solid fa-star fa-star-fully"></i>
+                        <i class="fa fa-star-half-full "></i>
+                        <span class="rating-number">4.5 </span>
+                    </div>
+                    <div class="card-section">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="main-footer" id="footer">
+        <div class="footer-from-info">
+            <div class="footer-form">
+                <div class="span-cont">
+                    <span class="font-playfair-48">Are you on</span>
+                    <span class="font-didot-48">the list?</span>
+                </div>
+                <div class="join-form">
+                    <span>Join to get exclusive offers & discounts</span>
+                    <div class="form-container">
+                        <form>
+                            <label for="femail" class="font-lato-14">Email*</label>
+                            <div class="form-button">
+                                <input type="email" id="femail" name="email" placeholder="Your email..">
+                                <input type="submit" name="join" value="Join" class="font-lato-14">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-info">
+                <div class="footer-info-container">
+                    <div class="footer-container-cards" data-aos="fade-right" data-aos-duration="1500"
+                        data-aos-easing="ease-in-out-cubic">
+                        <span class="font-playfair-24 ">Shop</span>
+                        <ul class="shop-police font-lato-14">
+                            <li><a class="shop-police-link" href="shop.html">SHOP ALL</a></li>
+                            <li><a class="shop-police-link" href="new.html">NEW</a></li>
+                            <li><a class="shop-police-link" href="bestSeller.html">BEST SELLER</a></li>
+                            <li><a class="shop-police-link" href="face.html">FACE</a></li>
+                            <li><a class="shop-police-link" href="lips.html">LIPS</a></li>
+                            <li><a class="shop-police-link" href="eyes.html">EYE</a></li>
+                        </ul>
+                    </div>
+                    <div class="location-contact" data-aos="fade-right" data-aos-duration="1500"
+                        data-aos-easing="ease-in-out-cubic">
+                        <span class="font-playfair-24 ">Our Store</span>
+                        <div class="location-span-container">
+                            <div class="location-contact-cont font-lato-14">
+                                <span>500 Terry Francine Street</span>
+                                <span>San francisco, CA 94158</span>
+                            </div>
+                            <div class="location-contact-cont font-lato-14">
+                                <span>Monday-Friday : 11am-10pm</span>
+                                <span>Saturday-Sunday: 11am-12pm</span>
+                            </div>
+                            <div class="location-contact-cont font-lato-14">
+                                <span>tel:<a href="tel:+14155550132">+1 (415) 555‑0132</a></span>
+                                <span>e-mail:<a href="mailto:jim@example.com">jim@example.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-container-cards" data-aos="fade-right" data-aos-duration="1500"
+                        data-aos-easing="ease-in-out-cubic">
+                        <span class="font-playfair-24 ">Policy</span>
+                        <ul class="shop-police font-lato-14">
+                            <li><a class="shop-police-link" href="#">Shipping&Return</a></li>
+                            <li><a class="shop-police-link" href="#">Store Police</a></li>
+                            <li><a class="shop-police-link" href="#">BEST SELLER</a></li>
+                            <li><a class="shop-police-link" href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="location-contact " data-aos="fade-right" data-aos-duration="1500"
+                        data-aos-easing="ease-in-out-cubic">
+                        <span class="font-playfair-24 ">Customer Service</span>
+                        <div class="location-contact-cont font-lato-14">
+                            <span>tel:<a href="tel:+14155550132">+1 (415) 555‑0132</a></span>
+                            <span>e-mail:<a href="mailto:jim@example.com">jim@example.com</a></span>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <span>© 2035 by Noelle. Powered and </br>secured by Wix</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="chat-button" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200"
+        data-aos-easing="ease-in-out">
+        <span class="font-lato-16">
+            <i class="fa fa-comments"></i>
+            <span class="chat-button-text">Let's Chat!</span>
+    </div>
+    <div class="backtop-butt">
+        <button id="backToTop" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/aos-init.js"></script>
+    <script src="js/header-scroll.js"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/desktop-search.js"></script>
+    <script src="js/mobile-search.js"></script>
+    <script src="js/product-count.js"></script>
+    <script src="js/sort.js"></script>
+    <script src="js/backToTop.js"></script>
+    <script src="js/desktop-search.js"></script>
+</body>

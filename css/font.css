@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=GFS+Didot&family=Gilda+Display&family=Imbue:opsz,wght@10..100,300&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Playfair+Display:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Handlee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Just+Another+Hand&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@600&display=swap');
+
+
+.font-playfair-48 {
+    font-size: 2.5vw;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.font-playfair-24 {
+    font-size: 2.4rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.font-didot-48 {
+    font-size: 2.5vw;
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-lato-14 {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.font-lato-16 {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+
+}
+
+.font-lato-18 {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+
+}
+
+.font-lato-20 {
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.font-playfair-74 {
+    font-size: 3.854vw;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.font-didot-74 {
+    font-size: 3.854vw;
+    font-family: "GFS Didot", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.font-16 {
+    font-size: 16px;
+}
