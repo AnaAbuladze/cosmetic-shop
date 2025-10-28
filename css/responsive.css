@@ -662,7 +662,36 @@
         padding: 1.2rem 2.5rem;
         font-size: 0.9rem;
       }
+      .about-hero-section p,
+      .mineral-showcase-section p, 
+      .product-feature-area p,
+      .ingredient-listing-block p,
+      .commitment-grid-space p,
+      .final-cta-module p,
+      .final-cta-button{
+        font-size: 18px;
+      }
+      .about-hero-section h2,
+      .mineral-showcase-section h2, 
+      .product-feature-area h2,
+      .ingredient-listing-block h2,
+      .commitment-grid-space h2,
+      .final-cta-module h2{
+
+        font-size: 30px;
+      }
+       .about-hero-section h3,
+       .mineral-showcase-section h3,
+       .mineral-showcase-digit, 
+      .product-feature-area h3,
+      .ingredient-listing-block h3,
+      .commitment-grid-space h3
+     {
+
+        font-size: 25px;
+      }
 }
+
 
 @media (max-width: 480px) {
     html {
