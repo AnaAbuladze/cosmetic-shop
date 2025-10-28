@@ -319,7 +319,11 @@
     .for-bg {
         height: 400px;
     }
-
+.product-cont{
+    span{
+        font-size: 36px;
+    }
+}
 
     .up-down-scroll {
         display: block;
@@ -344,6 +348,10 @@
 
     .belive-paragrap {
         width: 80%;
+       
+        a, span{
+            margin-bottom: 10px;
+        }
     }
 
     .footer-info {
@@ -353,7 +361,9 @@
     .main-footer {
         padding: 3vw;
     }
-
+.form-container label{
+    margin-bottom: 10px;
+}
     /*login*/
     .login-container {
         width: 400px;
@@ -409,7 +419,38 @@
         font-size: 14px;
     }
 
+.brand-intro-section,
+      .product-feature-area {
+        grid-template-columns: 1fr;
+      }
 
+      .brand-intro-details,
+      .product-feature-info {
+        padding: 4rem 2rem;
+      }
+
+      .brand-intro-visual,
+      .product-feature-photo {
+        min-height: 50vh;
+      }
+
+      .mineral-showcase-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem 2rem;
+      }
+
+      .commitment-grid-columns {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .craft-gallery-layout {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .ingredient-listing-wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
 }
 
 @media (max-width: 768px) {
@@ -427,16 +468,19 @@
 
     .join-form span {
         font-size: 14px;
+        margin-bottom: 10px;
     }
 
     input[type=email] {
         width: 200px;
     }
-
-    input[type=submit] {
+.form-button{
+    .submit-btn
+    
+ {
         width: 50px;
     }
-
+}
     .footer-info-container {
         display: flex;
         flex-direction: column;
@@ -572,9 +616,53 @@
     .full-cover {
         display: none;
     }
+     .about-hero-section {
+        height: 80vh;
+      }
+
+      .mineral-showcase-section,
+      .craft-gallery-zone,
+      .ingredient-listing-block,
+      .commitment-grid-space {
+        padding: 5rem 1.5rem;
+      }
+
+      .mineral-showcase-container,
+      .commitment-grid-columns,
+      .craft-gallery-layout {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+
+      .craft-gallery-tile:nth-child(1),
+      .craft-gallery-tile:nth-child(5) {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+
+      .ingredient-listing-card {
+        padding-left: 1.5rem;
+      }
+
+      .brand-intro-details,
+      .product-feature-info {
+        padding: 3rem 1.5rem;
+      }
+
+      .fullscreen-visual-banner {
+        height: 50vh;
+        background-attachment: scroll;
+      }
+
+      .final-cta-module {
+        padding: 4rem 1.5rem;
+      }
+
+      .final-cta-button {
+        padding: 1.2rem 2.5rem;
+        font-size: 0.9rem;
+      }
 }
-
-
 
 @media (max-width: 480px) {
     html {

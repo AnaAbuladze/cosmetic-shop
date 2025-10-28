@@ -296,6 +296,30 @@ i.fa-basket-shopping:hover {
     gap: 8px;
     margin-bottom: 2.8rem;
 
+    .submit-btn {
+        background-color: #fff;
+        color: #000;
+        border: none;
+        cursor: pointer;
+        width: 194px;
+        max-height: 40px;
+        margin-bottom: 16px;
+        margin-top: 6px;
+        border: 1px solid #ccc;
+        font-size: 1.6rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .submit-btn:hover {
+        background: none;
+        border: 1px solid #ccc;
+        color: #ccc;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        font-weight: 300;
+    }
+
 }
 
 .form-button input {
@@ -326,29 +350,7 @@ input[type="email"]:active {
     color: #f1eeee;
 }
 
-input[type=submit] {
-    background-color: #fff;
-    color: #000;
-    border: none;
-    cursor: pointer;
-    width: 194px;
-    max-height: 40px;
-    margin-bottom: 16px;
-    margin-top: 6px;
-    border: 1px solid #ccc;
-    font-size: 1.6rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 600;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-}
 
-input[type=submit]:hover {
-    background: none;
-    border: 1px solid #ccc;
-    color: #ccc;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    font-weight: 300;
-}
 
 hr {
     border: none;
@@ -1826,8 +1828,8 @@ details[open] .icon {
 
 #backToTop {
     position: fixed;
-    bottom: 20%;
-    right: 20px;
+    bottom: 13%;
+    right: 28px;
     background-color: #ffffff;
     color: #664647;
     padding: 20px 22px;
@@ -1854,4 +1856,389 @@ details[open] .icon {
 #backToTop:hover {
     background-color: #555;
     color: white;
+}
+
+/*aboutsection*/
+.about-hero-section {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #674748;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-hero-section::before {
+    content: 'NOELLE';
+    position: absolute;
+    font-size: 25vw;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.05);
+    letter-spacing: -0.05em;
+}
+
+.about-hero-wrapper {
+    text-align: center;
+    z-index: 1;
+    padding: 2rem;
+}
+
+.about-hero-wrapper h1 {
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    margin-bottom: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-hero-wrapper p {
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.brand-intro-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 70vh;
+}
+
+.brand-intro-visual {
+    background-image: url('../img/portrat.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.brand-intro-details {
+    display: grid;
+    place-items: center;
+    padding: 5rem;
+    background: #1a1a1a;
+}
+
+.brand-intro-copy h2 {
+    font-size: 3.854vw;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #ffffff;
+
+    margin-bottom: 2.5rem;
+    line-height: 1.1;
+}
+
+.brand-intro-copy p {
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.9;
+    margin-bottom: 1.8rem;
+}
+
+/* ===== MINERAL SHOWCASE ===== */
+.mineral-showcase-section {
+    padding: 8rem 2rem;
+    background: #ffffff;
+}
+
+.mineral-showcase-section h2 {
+    text-align: center;
+    font-size: 3.854vw;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    color: #674748;
+
+    margin-bottom: 6rem;
+    letter-spacing: 0.05em;
+}
+
+.mineral-showcase-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 3rem;
+}
+
+.mineral-showcase-box {
+    text-align: center;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.mineral-showcase-box:hover {
+    transform: translateY(-10px);
+}
+
+.mineral-showcase-digit {
+    font-size: 3.854vw;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    color: #674748;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+}
+
+.mineral-showcase-box h3 {
+    font-size: 2.5vw;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #1a1a1a;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+}
+
+.mineral-showcase-box p {
+    color: #666;
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+}
+
+.product-feature-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 80vh;
+}
+
+.product-feature-info {
+    display: grid;
+    place-items: center;
+    padding: 5rem;
+    background: #674748;
+}
+
+.product-feature-description h2 {
+    font-size: 3.854vw;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.product-feature-description p {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+}
+
+.product-feature-photo {
+    background-image: url('../img/portrait-beautiful-black-woman-with-mysterious-shadows.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===== CRAFT GALLERY ===== */
+.craft-gallery-zone {
+    padding: 8rem 2rem;
+    background: #1a1a1a;
+}
+
+.craft-gallery-zone h2 {
+    text-align: center;
+    font-size: 3.854vw;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 6rem;
+    letter-spacing: 0.05em;
+}
+
+.craft-gallery-layout {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+}
+
+.craft-gallery-tile {
+    aspect-ratio: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.craft-gallery-tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    filter: grayscale(40%);
+}
+
+.craft-gallery-tile:hover img {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.craft-gallery-tile:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.craft-gallery-tile:nth-child(5) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+/* ===== INGREDIENT LISTING ===== */
+.ingredient-listing-block {
+    padding: 8rem 2rem;
+    background: #ffffff;
+}
+
+.ingredient-listing-block h2 {
+    text-align: center;
+    font-size: 3.854vw;
+    font-family: "Playfair Display", serif;
+    color: #674748;
+    font-weight: 300;
+    margin-bottom: 6rem;
+    letter-spacing: 0.05em;
+}
+
+.ingredient-listing-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem 5rem;
+}
+
+.ingredient-listing-card {
+    border-left: 3px solid #674748;
+    padding-left: 2.5rem;
+    transition: all 0.3s ease;
+}
+
+.ingredient-listing-card:hover {
+    border-left-width: 6px;
+}
+
+.ingredient-listing-card h3 {
+    font-size: 2vw;
+    font-family: "Lato", sans-serif;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.ingredient-listing-card p {
+    color: #666;
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+
+}
+
+.commitment-grid-space {
+    padding: 8rem 2rem;
+    background: #1a1a1a;
+}
+
+.commitment-grid-space h2 {
+    text-align: center;
+    font-size: 3.854vw;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 6rem;
+    letter-spacing: 0.05em;
+}
+
+.commitment-grid-columns {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.commitment-grid-item {
+    text-align: center;
+    padding: 2rem;
+}
+
+.commitment-grid-symbol {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commitment-grid-symbol img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(0) saturate(100%) invert(33%) sepia(15%) saturate(1654%) hue-rotate(308deg) brightness(95%) contrast(88%);
+}
+
+.commitment-grid-item h3 {
+    font-size: 2vw;
+    font-family: "Lato", sans-serif;
+    color: #674748;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.commitment-grid-item p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+}
+
+.final-cta-module {
+    display: grid;
+    place-items: center;
+    min-height: 70vh;
+    background: #674748;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.final-cta-module h2 {
+    font-size: 3.854vw;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
+}
+
+.final-cta-module p {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    line-height: 1.9;
+}
+
+.final-cta-button {
+    background: #ffffff;
+    color: #674748;
+    border: none;
+    padding: 1.5rem 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.final-cta-button:hover {
+    background: #1a1a1a;
+    color: #ffffff;
 }
