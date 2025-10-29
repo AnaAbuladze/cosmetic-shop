@@ -8,7 +8,6 @@
         flex-direction: column;
         background-position: top center;
         background-repeat: no-repeat;
-
     }
 
     .product-card {
@@ -65,7 +64,6 @@
         font-size: 16px;
     }
 
-
     /*shops*/
     .aside-bar {
         padding: 20px;
@@ -80,16 +78,16 @@
     .prev-next-butt .btn {
         font-size: 16px;
     }
-       .forgot-password a  {
+
+    .forgot-password a {
         font-size: 20px;
-      }
+    }
 }
 
 @media (max-width: 1200px) {
     html {
         font-size: 9px;
     }
-
 
     .new-relase {
         margin-top: 20px;
@@ -125,9 +123,6 @@
     }
 }
 
-
-
-
 @media (max-width: 1024px) {
     html {
         font-size: 7px;
@@ -152,8 +147,6 @@
         background: #080606;
         z-index: 1001;
         color: white;
-
-
     }
 
     .second-shopping-bar {
@@ -165,7 +158,6 @@
         align-items: center;
         padding: 15px 20px;
     }
-
 
     .mobile-menu-close {
         position: absolute;
@@ -180,7 +172,6 @@
         gap: 40px;
         align-items: center;
         justify-content: center;
-
     }
 
     .mobile-menu-login {
@@ -190,7 +181,6 @@
         display: flex;
         gap: 10px;
         padding: 10px;
-
     }
 
     .fa-circle-user {
@@ -210,7 +200,6 @@
         background: #000;
         padding-left: 20px;
         padding-right: 20px;
-
     }
 
     .main-nav-list {
@@ -232,11 +221,9 @@
         font-size: 16px;
     }
 
-
     .mobile-search-form {
         display: none;
         background: none;
-
         padding: 5px 15px;
         gap: 10px;
         border-bottom: 1px solid #ddd;
@@ -260,8 +247,6 @@
         background: #000;
         border-bottom: 1px solid #222;
     }
-
-
 
     .mobile-search-form {
         display: none;
@@ -303,7 +288,6 @@
         color: #fff;
     }
 
-
     .mobile-search-form input::placeholder {
         color: #fff;
         opacity: 0.7;
@@ -322,11 +306,12 @@
     .for-bg {
         height: 400px;
     }
-.product-cont{
-    span{
-        font-size: 36px;
+
+    .product-cont {
+        span {
+            font-size: 36px;
+        }
     }
-}
 
     .up-down-scroll {
         display: block;
@@ -336,8 +321,6 @@
         position: static;
         background-attachment: scroll !important;
         background: none;
-
-
     }
 
     .ud-scroll {
@@ -351,8 +334,9 @@
 
     .belive-paragrap {
         width: 80%;
-       
-        a, span{
+
+        a,
+        span {
             margin-bottom: 10px;
         }
     }
@@ -364,16 +348,17 @@
     .main-footer {
         padding: 3vw;
     }
-.form-container label{
-    margin-bottom: 10px;
-}
+
+    .form-container label {
+        margin-bottom: 10px;
+    }
+
     /*login*/
     .login-container {
         width: 400px;
     }
 
     .back-btn {
-
         background: none;
         color: white;
         border: none;
@@ -423,42 +408,43 @@
         font-size: 14px;
     }
 
-.brand-intro-section,
-      .product-feature-area {
+    .brand-intro-section,
+    .product-feature-area {
         grid-template-columns: 1fr;
-      }
+    }
 
-      .brand-intro-details,
-      .product-feature-info {
+    .brand-intro-details,
+    .product-feature-info {
         padding: 4rem 2rem;
-      }
+    }
 
-      .brand-intro-visual,
-      .product-feature-photo {
+    .brand-intro-visual,
+    .product-feature-photo {
         min-height: 50vh;
-      }
+    }
 
-      .mineral-showcase-container {
+    .mineral-showcase-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem 2rem;
-      }
+    }
 
-      .commitment-grid-columns {
+    .commitment-grid-columns {
         grid-template-columns: repeat(2, 1fr);
-      }
+    }
 
-      .craft-gallery-layout {
+    .craft-gallery-layout {
         grid-template-columns: repeat(2, 1fr);
-      }
+    }
 
-      .ingredient-listing-wrapper {
+    .ingredient-listing-wrapper {
         grid-template-columns: 1fr;
         gap: 3rem;
-      }
-            input[type=text], 
-            input[type=password]{
+    }
+
+    input[type=text],
+    input[type=password] {
         font-size: 20px;
-      }
+    }
 
 }
 
@@ -483,13 +469,13 @@
     input[type=email] {
         width: 200px;
     }
-.form-button{
-    .submit-btn
-    
- {
-        width: 50px;
+
+    .form-button {
+        .submit-btn {
+            width: 50px;
+        }
     }
-}
+
     .footer-info-container {
         display: flex;
         flex-direction: column;
@@ -497,14 +483,12 @@
     }
 
     .shop-police {
-
         padding: 0;
     }
 
     .scrolle-img {
         position: static;
         display: block;
-
     }
 
     .up-down-containe {
@@ -518,7 +502,6 @@
     }
 
     .for-bg {
-
         width: 100%;
         position: static;
         margin-left: 0;
@@ -593,9 +576,7 @@
 
     .hashtags {
         opacity: 1;
-        ;
         top: 50%;
-
         transform: translate(-50% -50%);
     }
 
@@ -615,7 +596,6 @@
 
     .secondary-page h1 {
         font-size: 35px;
-        ;
     }
 
     .inside-page {
@@ -625,87 +605,90 @@
     .full-cover {
         display: none;
     }
-     .about-hero-section {
+
+    .about-hero-section {
         height: 80vh;
-      }
+    }
 
-      .mineral-showcase-section,
-      .craft-gallery-zone,
-      .ingredient-listing-block,
-      .commitment-grid-space {
+    .mineral-showcase-section,
+    .craft-gallery-zone,
+    .ingredient-listing-block,
+    .commitment-grid-space {
         padding: 5rem 1.5rem;
-      }
+    }
 
-      .mineral-showcase-container,
-      .commitment-grid-columns,
-      .craft-gallery-layout {
+    .mineral-showcase-container,
+    .commitment-grid-columns,
+    .craft-gallery-layout {
         grid-template-columns: 1fr;
         gap: 2.5rem;
-      }
+    }
 
-      .craft-gallery-tile:nth-child(1),
-      .craft-gallery-tile:nth-child(5) {
+    .craft-gallery-tile:nth-child(1),
+    .craft-gallery-tile:nth-child(5) {
         grid-column: span 1;
         grid-row: span 1;
-      }
+    }
 
-      .ingredient-listing-card {
+    .ingredient-listing-card {
         padding-left: 1.5rem;
-      }
+    }
 
-      .brand-intro-details,
-      .product-feature-info {
+    .brand-intro-details,
+    .product-feature-info {
         padding: 3rem 1.5rem;
-      }
+    }
 
-      .fullscreen-visual-banner {
+    .fullscreen-visual-banner {
         height: 50vh;
         background-attachment: scroll;
-      }
+    }
 
-      .final-cta-module {
+    .final-cta-module {
         padding: 4rem 1.5rem;
-      }
+    }
 
-      .final-cta-button {
+    .final-cta-button {
         padding: 1.2rem 2.5rem;
         font-size: 0.9rem;
-      }
-      .about-hero-section p,
-      .mineral-showcase-section p, 
-      .product-feature-area p,
-      .ingredient-listing-block p,
-      .commitment-grid-space p,
-      .final-cta-module p,
-      .final-cta-button{
+    }
+
+    .about-hero-section p,
+    .mineral-showcase-section p,
+    .product-feature-area p,
+    .ingredient-listing-block p,
+    .commitment-grid-space p,
+    .final-cta-module p,
+    .final-cta-button {
         font-size: 18px;
-      }
-      .about-hero-section h2,
-      .mineral-showcase-section h2, 
-      .product-feature-area h2,
-      .ingredient-listing-block h2,
-      .commitment-grid-space h2,
-      .final-cta-module h2,
-      .craft-gallery-zone h2{
+    }
+
+    .about-hero-section h2,
+    .mineral-showcase-section h2,
+    .product-feature-area h2,
+    .ingredient-listing-block h2,
+    .commitment-grid-space h2,
+    .final-cta-module h2,
+    .craft-gallery-zone h2 {
 
         font-size: 30px;
-      }
-       .about-hero-section h3,
-       .mineral-showcase-section h3,
-       .mineral-showcase-digit, 
-      .product-feature-area h3,
-      .ingredient-listing-block h3,
-      .commitment-grid-space h3
-     {
+    }
+
+    .about-hero-section h3,
+    .mineral-showcase-section h3,
+    .mineral-showcase-digit,
+    .product-feature-area h3,
+    .ingredient-listing-block h3,
+    .commitment-grid-space h3 {
 
         font-size: 25px;
-      }
-      input[type=text],
-      input[type=password]
-      .forgot-password a  {
-        font-size: 18px;
-      }
     }
+
+    input[type=text],
+    input[type=password] .forgot-password a {
+        font-size: 18px;
+    }
+}
 
 @media (max-width: 480px) {
     html {
@@ -767,7 +750,7 @@
 
     input[type=text],
     input[type=password],
-    .forgot-password a  {
+    .forgot-password a {
         font-size: 16px;
     }
 

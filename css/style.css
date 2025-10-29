@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-section{
+section {
     overflow: hidden;
-    
-
 }
 
 html {
@@ -36,8 +34,6 @@ li {
     align-items: center;
 }
 
-
-
 .mobile-menu-box {
     display: none;
 }
@@ -52,7 +48,6 @@ li {
     color: #fff;
     padding: 10px 0;
 }
-
 
 /*header*/
 .main-header {
@@ -192,15 +187,12 @@ i.fa-basket-shopping:hover {
     z-index: 1000;
 }
 
-
-
 .search-wrapper {
     position: relative;
     width: 100%;
     display: flex;
     align-items: center;
 }
-
 
 .search-wrapper input {
     width: 100%;
@@ -215,14 +207,12 @@ i.fa-basket-shopping:hover {
 
 }
 
-
 .search-wrapper .search-icon {
     position: absolute;
     left: 1.2rem;
     color: #c0b2b2;
     font-size: 16px;
 }
-
 
 #close-search {
     position: absolute;
@@ -238,8 +228,6 @@ i.fa-basket-shopping:hover {
     color: #f0e7e7;
     transition: 0.3s;
 }
-
-
 
 /*footer*/
 .main-footer {
@@ -356,8 +344,6 @@ input[type="email"]:active {
     color: #f1eeee;
 }
 
-
-
 hr {
     border: none;
     height: 1px;
@@ -384,7 +370,6 @@ hr {
     flex-direction: column;
     gap: 2.4rem;
 }
-
 
 .location-contact-cont,
 .shop-police {
@@ -430,8 +415,6 @@ hr {
     display: block;
     margin-bottom: 16px;
 }
-
-
 
 .cover-img button,
 .add-sec-but {
@@ -482,9 +465,6 @@ hr {
     align-items: center;
 }
 
-
-
-
 .product,
 .dont-miss,
 .discover-more-cont {
@@ -497,7 +477,6 @@ hr {
 .slider {
     text-align: center;
 }
-
 
 .product-cont {
     padding: 1rem;
@@ -619,7 +598,6 @@ hr {
     margin-bottom: 5px;
 }
 
-
 .rating {
     display: flex;
     justify-content: center;
@@ -652,8 +630,6 @@ hr {
     color: #555;
     font-size: 14px;
 }
-
-
 
 .badge {
     position: absolute;
@@ -701,8 +677,6 @@ hr {
     transition: all 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .button-shop {
     width: 200px;
     padding: 12px 24px;
@@ -725,9 +699,6 @@ hr {
 
 }
 
-
-
-
 .half-of-scroll-img {
     height: 100%;
     width: 50%;
@@ -747,7 +718,6 @@ hr {
     overflow: hidden;
     background: white;
 }
-
 
 .span-head-scroll {
     display: flex;
@@ -870,8 +840,6 @@ hr {
     transform: translateX(-50%);
 }
 
-
-
 .blanck {
     position: absolute;
     left: 0;
@@ -889,8 +857,6 @@ hr {
     align-items: center;
     overflow: hidden;
     margin-bottom: -10px;
-
-
 }
 
 .ud-scroll {
@@ -915,8 +881,6 @@ hr {
     position: relative;
     z-index: 1;
     margin-bottom: -9%;
-
-
 }
 
 .up-text {
@@ -963,7 +927,6 @@ hr {
     padding-left: 4.167vw;
     line-height: 1;
     letter-spacing: -0.5px;
-
 }
 
 .belive-paragrap {
@@ -980,14 +943,12 @@ hr {
 .belive-paragrap a {
     display: inline-block;
     text-decoration: underline;
-
 }
 
 .belive-paragrap a:hover {
     color: #703943;
     text-decoration: none;
     transition: 0.3s;
-
 }
 
 .slider {
@@ -1027,7 +988,6 @@ hr {
     transform: translateY(-50%);
     padding-right: 10px;
     padding-left: 10px;
-
 }
 
 .hashtags a {
@@ -1037,7 +997,6 @@ hr {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     line-height: 1;
-
 }
 
 .hashtags a:hover {
@@ -1086,7 +1045,6 @@ hr {
     align-items: center;
     color: #000;
 }
-
 
 .aside-bar p {
     margin-bottom: 16px;
@@ -1194,7 +1152,6 @@ hr {
     margin-bottom: 8px;
 }
 
-
 .sort-menu li button {
     width: 100%;
     background: none;
@@ -1270,13 +1227,10 @@ hr {
     align-items: center;
     justify-content: center;
     opacity: 1;
-
     transition: opacity 1s ease-in-out;
     width: 50%;
     transform: translate(-50%, -50%);
 }
-
-
 
 .login-section-img:hover .login-regis-name {
 
@@ -1289,7 +1243,6 @@ hr {
     object-fit: cover;
     transition: filter 0.5s ease;
     border-radius: 2px 0 0 2px;
-
 }
 
 .login-section-img:hover img {
@@ -1339,7 +1292,6 @@ label {
     display: flex;
     align-items: center;
     background-color: #f3f3f3e1;
-
     border-radius: 6px;
     padding: 15px;
 }
@@ -1364,7 +1316,6 @@ input[type=password] {
     font-size: 1.6rem;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-
 }
 
 .toggle-password {
@@ -1458,7 +1409,6 @@ input[type=password] {
     justify-content: center;
     margin: 15px 0 10px;
 
-
     a:hover {
         text-decoration: underline;
     }
@@ -1488,20 +1438,14 @@ input[type=password] {
     transition: all 0.35s ease-in-out;
 }
 
-
-
-
 .inside-page {
     margin: 5vw auto;
     width: 50%;
     padding: 20px;
-
-
 }
 
 .inside-page-cont {
     margin: 0 45px;
-
 }
 
 .indide-page-head {
@@ -1526,13 +1470,11 @@ input[type=password] {
 
 }
 
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: rgba(0, 0, 0, 0.404);
     border-radius: 50%;
 }
-
 
 .inside-page-img-cont {
     display: flex;
@@ -1584,10 +1526,8 @@ input[type=password] {
 .quantity-box {
     display: flex;
     border: 1px solid #ccc;
-
     overflow: hidden;
     width: 100px;
-
 }
 
 .quantity-box button {
@@ -1640,7 +1580,6 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 1.6rem;
     background-color: white;
     border: 0.5px solid gray;
-
 }
 
 .add-to-purch:hover,
@@ -1670,7 +1609,6 @@ details[open] .icon {
 
 
 .info-content {
-
     font-size: 16px;
     line-height: 1.5;
 }
@@ -1707,7 +1645,6 @@ details[open] .icon {
     margin-bottom: 0;
 }
 
-
 .filter-sort-controls {
     font-size: 1.4rem;
     color: #555;
@@ -1727,7 +1664,6 @@ details[open] .icon {
     margin-left: 5px;
 }
 
-
 .review-card {
     padding: 20px 0;
 }
@@ -1737,8 +1673,6 @@ details[open] .icon {
     align-items: center;
     margin-bottom: 5px;
 }
-
-
 
 .review-date {
     font-size: 1.5rem;
@@ -1754,7 +1688,6 @@ details[open] .icon {
     cursor: pointer;
     padding: 0 10px;
 }
-
 
 .review-rating {
     margin-bottom: 10px;
@@ -1783,7 +1716,6 @@ details[open] .icon {
     line-height: 1.5;
     margin-bottom: 15px;
 }
-
 
 .review-footer {
     display: flex;
@@ -1814,7 +1746,6 @@ details[open] .icon {
     border-top: 1px solid #ddd;
     margin: 0;
 }
-
 
 .second-shopping-bar {
     display: none;
@@ -1930,7 +1861,6 @@ details[open] .icon {
     font-weight: 800;
     line-height: 1.1;
     color: #ffffff;
-
     margin-bottom: 2.5rem;
     line-height: 1.1;
 }
@@ -2141,7 +2071,6 @@ details[open] .icon {
     line-height: 1.8;
     font-size: 18px;
     font-family: "Lato", sans-serif;
-
 }
 
 .commitment-grid-space {
