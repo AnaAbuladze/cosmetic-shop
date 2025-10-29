@@ -80,6 +80,9 @@
     .prev-next-butt .btn {
         font-size: 16px;
     }
+       .forgot-password a  {
+        font-size: 20px;
+      }
 }
 
 @media (max-width: 1200px) {
@@ -452,6 +455,11 @@
         grid-template-columns: 1fr;
         gap: 3rem;
       }
+            input[type=text], 
+            input[type=password]{
+        font-size: 20px;
+      }
+
 }
 
 @media (max-width: 768px) {
@@ -692,8 +700,12 @@
 
         font-size: 25px;
       }
-}
-
+      input[type=text],
+      input[type=password]
+      .forgot-password a  {
+        font-size: 18px;
+      }
+    }
 
 @media (max-width: 480px) {
     html {
@@ -754,8 +766,9 @@
     }
 
     input[type=text],
-    input[type=password] {
-        font-size: 1.4rem;
+    input[type=password],
+    .forgot-password a  {
+        font-size: 16px;
     }
 
     .add-to,
