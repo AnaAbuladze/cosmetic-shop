@@ -147,6 +147,7 @@
         background: #080606;
         z-index: 1001;
         color: white;
+        align-items: center;
     }
 
     .second-shopping-bar {
@@ -272,7 +273,14 @@
         border: 1px solid #fff;
         outline: none;
     }
-
+.second-shopping-bar button{
+    font-size: 18px;
+    padding: 2px;
+}
+.social-icons a i.fa-brands{
+    font-size: 22px;
+}
+ 
     #mobile-search-btn,
     .mobile-nav-btn,
     #mobile-close-search {
@@ -286,6 +294,8 @@
     .mobile-nav-btn i,
     #mobile-close-search i {
         color: #fff;
+        font-size:18px;
+        padding: 2px;
     }
 
     .mobile-search-form input::placeholder {
@@ -445,6 +455,10 @@
     input[type=password] {
         font-size: 20px;
     }
+    .social-icons{
+        font-size: 24px;
+    }
+    
 
 }
 
@@ -552,6 +566,10 @@
         text-align: center;
         padding: 3.083vw;
     }
+    .we-belive{
+          background-attachment: scroll; 
+    }
+ 
 
     .belive-text {
         width: 100%;

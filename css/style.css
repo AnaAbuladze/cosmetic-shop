@@ -38,6 +38,17 @@ li {
     display: none;
 }
 
+button {
+  -webkit-appearance: none; 
+  appearance: none;        
+  background: none;         
+  border: none;            
+  border-radius: 0;         
+  color: inherit;          
+  font: inherit;          
+}
+
+
 .mobile-search-btn,
 .mobile-nav-btn,
 .mobile-menu-close {
@@ -600,6 +611,7 @@ hr {
     margin-bottom: 5px;
 }
 
+
 .rating {
     display: flex;
     justify-content: center;
@@ -632,6 +644,7 @@ hr {
     color: #555;
     font-size: 14px;
 }
+
 
 .badge {
     position: absolute;
