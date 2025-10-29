@@ -706,6 +706,9 @@
     input[type=password] .forgot-password a {
         font-size: 18px;
     }
+    .social-icons {
+        gap: 10px;
+    }
 }
 
 @media (max-width: 480px) {
