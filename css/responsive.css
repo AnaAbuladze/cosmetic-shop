@@ -160,13 +160,13 @@
         padding: 15px 20px;
     }
 
-    .mobile-menu-close {
+ .mobile-menu-close {
         position: absolute;
-        right: 20px;
-        top: 20px;
+        right: 9px;
+        top: 61px;
         padding: 10px;
     }
-
+    
     .mobile-menu-nav {
         display: flex;
         flex-direction: column;
@@ -294,7 +294,7 @@
     .mobile-nav-btn i,
     #mobile-close-search i {
         color: #fff;
-        font-size:18px;
+        font-size:22px;
         padding: 2px;
     }
 
