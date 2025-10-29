@@ -676,7 +676,8 @@
       .product-feature-area h2,
       .ingredient-listing-block h2,
       .commitment-grid-space h2,
-      .final-cta-module h2{
+      .final-cta-module h2,
+      .craft-gallery-zone h2{
 
         font-size: 30px;
       }
