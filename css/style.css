@@ -1764,7 +1764,7 @@ details[open] .icon {
 
 #backToTop {
     position: fixed;
-    bottom: 15%;
+    bottom: 108px;
     right: 28px;
     background-color: #ffffff;
     color: #664647;
