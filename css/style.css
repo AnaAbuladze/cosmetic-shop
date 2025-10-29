@@ -1912,7 +1912,7 @@ details[open] .icon {
 }
 
 .brand-intro-visual {
-    background-image: url('../img/portrat.jpg');
+    background-image: url('../img/portrat-min.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -1944,7 +1944,7 @@ details[open] .icon {
     margin-bottom: 1.8rem;
 }
 
-/* ===== MINERAL SHOWCASE ===== */
+/* MINERAL SHOWCASE*/
 .mineral-showcase-section {
     padding: 8rem 2rem;
     background: #ffffff;
@@ -2036,12 +2036,12 @@ details[open] .icon {
 }
 
 .product-feature-photo {
-    background-image: url('../img/2.jpg');
+    background-image: url('../img/2-min.jpg');
     background-size: cover;
     background-position: center;
 }
 
-/* ===== CRAFT GALLERY ===== */
+/*CRAFT GALLERY */
 .craft-gallery-zone {
     padding: 8rem 2rem;
     background: #1a1a1a;
@@ -2094,7 +2094,7 @@ details[open] .icon {
     grid-row: span 2;
 }
 
-/* ===== INGREDIENT LISTING ===== */
+/*  INGREDIENT LISTING*/
 .ingredient-listing-block {
     padding: 8rem 2rem;
     background: #ffffff;
